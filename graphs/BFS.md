@@ -1,6 +1,7 @@
 This search is a queue based traversal.
 
 Algo:
+
 (INIT phase)
 ```
 a. Modify graph vertex to have color, prev (will be used later to print the path) and dist (from source) on each vertex.
@@ -46,4 +47,9 @@ e. While queue isn't empty,
   else printPath(graph, s, d.prev)
   print d
 ```
+
+Important problems solved by BFS:
+
+1. Is graph bipartite
+2. Diameter of the graph
   
